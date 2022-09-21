@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Arcane/static/css/main.4270ad7e.css",
+    "main.js": "/Arcane/static/js/main.f9c83cb9.js",
+    "static/js/787.66f792fc.chunk.js": "/Arcane/static/js/787.66f792fc.chunk.js",
+    "static/media/envar-studio-league-district-i.jpg": "/Arcane/static/media/envar-studio-league-district-i.051d892cec6884ccbdb8.jpg",
+    "static/media/envar-studio-heimerdingerlab-final.jpg": "/Arcane/static/media/envar-studio-heimerdingerlab-final.24c0d593871afbd2abf3.jpg",
+    "static/media/envar-studio-last-drop-bar.jpg": "/Arcane/static/media/envar-studio-last-drop-bar.a5ee36f2b79b028af4cb.jpg",
+    "static/media/jinx.png": "/Arcane/static/media/jinx.551b6ed378f316f6744e.png",
+    "static/media/viktor.png": "/Arcane/static/media/viktor.4377c6d2392d23c40f56.png",
+    "static/media/vi.png": "/Arcane/static/media/vi.330ef83bdcf59072afde.png",
+    "static/media/heimer.png": "/Arcane/static/media/heimer.e3ad57a7480b13ac5e34.png",
+    "static/media/caitlyn.png": "/Arcane/static/media/caitlyn.1e857e7d6b680b3927ce.png",
+    "static/media/AlgerianRegular.ttf": "/Arcane/static/media/AlgerianRegular.0e3406c6bf435307ed2b.ttf",
+    "static/media/Bienvenido.ttf": "/Arcane/static/media/Bienvenido.4cc388ae8f0dfd7d80d8.ttf",
+    "static/media/netflix.png": "/Arcane/static/media/netflix.a3092e10ce2527646427.png",
+    "static/media/Arcane-02.png": "/Arcane/static/media/Arcane-02.c5c6e8cc377f92f125e5.png",
+    "static/media/Arcane-05.png": "/Arcane/static/media/Arcane-05.0211d1039331a35ad5f9.png",
+    "static/media/Arcane-01.png": "/Arcane/static/media/Arcane-01.ff3091e021ded0fcd552.png",
+    "static/media/Arcane-06.png": "/Arcane/static/media/Arcane-06.b6eebc01851ef564e164.png",
+    "static/media/Arcane-03.png": "/Arcane/static/media/Arcane-03.22bee96a5cb08a95d70e.png",
+    "static/media/logo.svg": "/Arcane/static/media/logo.e441d4160ec3849247c02a30e04f750f.svg",
+    "index.html": "/Arcane/index.html",
+    "main.4270ad7e.css.map": "/Arcane/static/css/main.4270ad7e.css.map",
+    "main.f9c83cb9.js.map": "/Arcane/static/js/main.f9c83cb9.js.map",
+    "787.66f792fc.chunk.js.map": "/Arcane/static/js/787.66f792fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4270ad7e.css",
+    "static/js/main.f9c83cb9.js"
+  ]
+}
