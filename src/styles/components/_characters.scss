@@ -1,0 +1,33 @@
+#characters {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  .MuiPaper-root {
+    background-color: unset !important;
+  }
+  .MuiAccordionDetails-root {
+    color: #ede0ce !important;
+  }
+  .MuiAccordionSummary-content {
+    justify-content: center;
+    display: flex;
+    color: red !important;
+  }
+  img {
+    width: 85px;
+  }
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  //   color: #181515 !important;
+  box-shadow: 0px 0px 0px !important;
+  &::before {
+    opacity: 0 !important;
+    height: 0 !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #characters {
+    width: 40%;
+  }
+}

@@ -1,0 +1,71 @@
+.logoTitle {
+    width: 50px;
+    height: 50px;
+}
+
+.bgImg {
+    background-image: url('../../assets/img/envar-studio-league-district-i.jpg');
+    background-size: cover;
+}
+
+.anim1 {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.7s;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.7s;
+}
+
+.anim2 {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s;
+        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s;
+}
+
+.anim3 {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.3s;
+        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.3s;
+}
+
+.anim4 {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.6s;
+        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.6s;
+}
+
+.anim5 {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.9s;
+        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1.9s;
+}
+
+.anim6 {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.2s;
+        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2.2s;
+}
+
+@media screen and (min-width: 992px){
+    .logoTitle {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+}
+@keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+}

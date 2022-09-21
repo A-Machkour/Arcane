@@ -1,0 +1,61 @@
+.separator {
+    height: 500px;
+    box-shadow: -1px 0px 40px 50px #181515;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgHeimerdingerlab {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    // position: absolute;
+    // left: 100px;
+    // top: 50px;
+}
+
+.imgLanding {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 20%;
+    top: 200px;
+}
+
+.vertical { 
+    border-left: 2px solid #EDE0CE;
+    height: 300px; 
+    // display: inline-block;
+    // position: absolute;
+    // right: 600px;
+} 
+
+.quote {
+    width: 100%;
+    font-size: 16px;
+}
+
+.quoteBorder {
+    border-left: 1px solid white;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 992px){
+    .separator {
+        height: 800px;
+    }
+
+    .quote {
+        width: 500px;
+        font-size: 30px;
+    }
+
+    .quoteBorder {
+        padding-left: 50px;
+        margin-left: 50px;
+    }
+}
