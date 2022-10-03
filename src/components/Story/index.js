@@ -1,7 +1,9 @@
 import Box from "@mui/material/Box";
 import ReactPlayer from "react-player";
+import { useMediaQuery } from "@mui/material";
 
 const Story = () => {
+  const matches = useMediaQuery("(max-width:600px)");
   return (
     <div className="bgImgStory story" id="story">
       <Box
@@ -31,8 +33,8 @@ const Story = () => {
         </p>
         <ReactPlayer
           controls={true}
-          width="500px"
-          height="300px"
+          width={matches ? "90%" : "500px"}
+          height={matches ? "80%" : "300px"}
           url="https://www.youtube.com/watch?v=v-dgpzE7txk&ab_channel=LeagueofLegends-France"
         />
       </Box>
