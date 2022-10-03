@@ -18,6 +18,7 @@ const Characters = () => {
 
   return (
     <div id="characters">
+      <h1 className="characTitle">Les personnages</h1>
       <Accordion
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
